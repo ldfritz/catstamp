@@ -10,6 +10,7 @@ The following use of `cat` is a reasonable method for capturing notes.
 $ cat >> somefile.txt
 this is a test
 oh, yeah.  the test.
+oops.  forgot.
 ^D
 $ cat somefile.txt 
 this is a test.
@@ -24,6 +25,7 @@ This, though, will also timestamp each captured line.
 $ catstamp >> somefile.txt
 this is a test
 oh, yeah.  the test.
+oops.  forgot.
 ^D
 $ cat somefile.txt 
 2018-01-22 19:24:10	this is a test
